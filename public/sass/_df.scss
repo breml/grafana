@@ -23,3 +23,9 @@ sidemenu {
 dashnav {
     display: none !important;
 }
+
+grafana-panel {
+    .panel-menu-container {
+        display: none !important;
+    }
+}
