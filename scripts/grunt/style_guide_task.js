@@ -38,6 +38,7 @@ module.exports = function(grunt) {
 
     readVars('public/sass/_variables.dark.scss', data.dark);
     readVars('public/sass/_variables.light.scss', data.light);
+    readVars('public/sass/_variables.df.scss', data.df);
 
     var styleGuideJson = grunt.config().srcDir + '/build/styleguide.json';
     grunt.file.write(styleGuideJson, JSON.stringify(data, null, 4));
