@@ -3,3 +3,15 @@
 .login-branding {
     display: none !important;
 }
+
+footer {
+    > div {
+        > ul {
+            display: none !important;
+        }
+
+        &:after {
+            content: "This Is The Footer";
+        }
+    }
+}
